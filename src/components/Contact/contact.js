@@ -7,7 +7,7 @@ import facebookIcon from "../../assets/facebook-icon.png";
 import twitterIcon from "../../assets/twitter.png";
 import youtubeIcon from "../../assets/youtube.png";
 import instagramIcon from "../../assets/instagram.png";
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 
 const Contact = () => {
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
         <span className="contactDesc">
           Please fill out the form below to discuss any work opportunities.
         </span>
-        <form className="contactForm" ref={form} onSubmit={sendEmail}>
+        <form className="contactForm">
           <input
             type="text"
             className="name"
